@@ -30,11 +30,10 @@ const List = () => {
             <h4>{name}</h4>
             <p>{age} years</p>
           </div>
-        </article>
-       
-
+        </article>      
+          
         );
-      })};
+      })} 
       <button onClick={() => setItems([])}> clear all</button>
     </>
   );
